@@ -55,7 +55,7 @@ class MyProfile extends Component {
     const { name, gender, description, conductRead } = state.formValus;
 
     return (
-      <>
+      <div className="my-profile">
         <h1>My Profile</h1>
 
         <form>
@@ -99,7 +99,7 @@ class MyProfile extends Component {
             Submit
           </button>
         </form>
-      </>
+      </div>
     );
   }
 
